@@ -1,0 +1,17 @@
+.big{
+    font-size: 400%;
+    padding: 35% 0% 0% 0%;
+}
+.webdesign{
+    background: url(../img/OAYTMM0.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    min-height: 200px;
+}
+
+.layer7{
+    height: 50vh;
+    width: 100vw;
+}

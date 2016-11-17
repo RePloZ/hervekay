@@ -1,0 +1,11 @@
+body{
+    background-image: url(../img/robots.png);
+    color:  #cccccc;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h400{
+    margin-top: 20%;
+    height: 550px;
+}

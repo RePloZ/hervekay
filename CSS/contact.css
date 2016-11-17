@@ -1,0 +1,25 @@
+section{
+    font-size: 200%;
+}
+#ghost-button{
+    background: transparent;
+	color: #F2F2F2;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+.pad{
+    padding-top: 40px;
+}
+.ghost{
+    border: none
+}
+.text{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+}

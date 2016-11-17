@@ -1,0 +1,33 @@
+section{
+    font-size: 200%
+}
+.secomp{
+    background: url(../img/07.jpg)center center no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: #333333;
+    min-height: 200px;
+    text-align: left;
+    padding-bottom: 10%;
+}
+
+.lang{
+    background: url(../img/10.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 400px;
+    padding-top: 10%;
+}
+.contour{
+    border-style: solid;
+    border-color: black;
+}
+
+.gauche{
+    text-align: right;
+    padding-top 10%;
+}
+.bas{
+    text-align: center;
+    
+}
