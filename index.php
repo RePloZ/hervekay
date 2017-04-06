@@ -1,2 +1,2 @@
 <?php
-header('index.html');
+include ('index.html');
