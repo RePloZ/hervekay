@@ -1,114 +1,144 @@
 <!DOCTYPE html>
 <html lang="fr">
-        <head>
-                <meta name="author" content="Hervé Kay">
-                <meta name="description" content="Portfolio Hervé Kay : Tous mes projets avec le système d'exploitation Linux">
-                <meta charset="utf-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <title>Home</title>
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-                <link rel="stylesheet" href="CSS/all.css">
-                <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-                <link rel="stylesheet" href="CSS/page-generic.css">
-                <link href="CSS/index.css" rel="stylesheet">
-        </head>
-        <body>
-                <nav class="navbar navbar-default  navbar-inverse">
-                        <div class="container-fluid">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                                <span class="sr-only">Toggle navigation</span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                        </button>
-                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                                <ul class="nav navbar-nav nav nav-tabs">
-                                                        <li class="active">
-                                                                <a href="http://hervekay.herokuapp.com/">Accueil</a>
-                                                        </li>
 
-                                                        <li class="active dropdown">
-                                                                <a href="properso.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projet Personnels <spann class="caret"></spann></a>
-                                                                <ul class="dropdown-menu dropdown-menu-center">
-                                                                        <li><a href="devellopeur-php.html">Developpeur PHP
-                                                                                </a></li>
-                                                                        <li><a href="developpeur-front-end.html">
-                                                                                Developpeur Front-END
-                                                                                </a></li>
-                                                                        <li><a href="developpeur-java.html">
-                                                                                Developpeur Java
-                                                                                </a></li>
-                                                                        <li><a href="developpeur-javascript.html">
-                                                                                Developpeur JavaScript
-                                                                                </a></li>
-                                                                        <li><a href="developpeur-linux.html">
-                                                                                Developpeur linux
-                                                                                </a></li>
-                                                                        <div class="dropdown-divider"></div>    
-                                                                        <div class="dropdown-header">Tous les projets</div>
-                                                                        <li><a href="properso.html">Projets Personels</a></li>
+<head>
+    <meta name="author" content="Hervé Kay">
+    <meta name="description" content="Portfolio Hervé Kay : Tous mes projets avec le système d'exploitation Linux">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/page-generic.css">
+    <link href="CSS/index.css" rel="stylesheet">
+</head>
 
-                                                                </ul>
-                                                        </li>
+<body>
+    <nav class="navbar navbar-default  navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Portfolio Hervé Kay</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav nav nav-tabs">
+                    <li class="dropdown">
+                        <a href="properso.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projet Personnels <spann class="caret"></spann></a>
+                        <ul class="dropdown-menu dropdown-menu-center">
+                            <li><a href="devellopeur-php.html">Developpeur PHP</a></li>
+                            <li><a href="developpeur-front-end.html">Developpeur Front-END</a></li>
+                            <li><a href="developpeur-java.html">Developpeur Java</a></li>
+                            <li><a href="developpeur-javascript.html">Developpeur JavaScript</a></li>
+                            <li class="active"><a href="developpeur-linux.html">Developpeur linux</a></li>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-header">Tous les projets</div>
+                            <li><a href="properso.html">Projets Personels</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="CV.html">Curriculum Vitae</a>
+                    </li>
+                    <li name='modal'>
+                        <a name='modal'>Contact</a>
+                    </li>
+                </ul>
+                <div class="navbar-header navbar-right">
+                    <a href="https://github.com/reploz">
+                        <img src="img/GitHub-Mark-Light-120px-plus.png" height="52px" width="52px" alt="Github">
+                    </a>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+    </nav>
 
-                                                        <li class="active">
-                                                                <a href="CV.html">Curriculum Vitae</a>
-                                                        </li>
-
-                                                        <li class="active">
-                                                                <a href="contact.html">Contact</a>
-                                                        </li>
-
-                                                </ul>
-                                        </div><!-- /.navbar-collapse -->
-                                </div><!-- /.container-fluid -->
+    <!-- Modal -->
+    <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Contacter</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <spann class="normal small">Une question ? Une remarque ? Ou tout simplement un commentaire.
+                            <br> Inscrivez toutes vos demandes, je serais à votre disposition.</spann>
+                    </p>
+                    <form class="" action="mail.php" method="post">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
                         </div>
-                </nav>
+                        <label for="contenu"></label>
+                        <textarea class="form-control" name="contenu" id="contenu" rows="8"></textarea>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" form="">Envoyer</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <section class="container-fluid row">
-                        <div class="col-xs-6 text-center">
-                                <br><br><br><br><br>
-                                <img src="img/linux-logo.jpg" alt="Front End" class="categorie">
-                        </div>
-                        <div class="col-xs-6">
-                                <h1>Programmation <br> "Distribution Linux"</h1>
-                                <br>
-                                <p>Niveau : Intermediaire</p>
-                                <br> 
-                                <p class="text-left">OS utilisé :</p>
-                                <ul class="list-group">
-                                        <li class="list-group-item transparent"><p>
-                                                <a href="">Ubuntu</a>
-                                                </p></li>
-                                        <li class="list-group-item transparent"><p>
-                                                <a href="">Mint</a>
-                                                </p></li>
-                                </ul>
-                        </div>
-                </section>
-                <section>
-                        <h1>Projets Réalisés :</h1>
-                        <section class="row">
-                                <div class="col-xs-6">
-                                        <img src="" alt="">
-                                </div>
-                                <div class="cil-xl-6">
-                                        <h1></h1>
-                                        <p></p>
-                                </div>
-                        </section>
-                        <br>
-                        <p></p>
-                        <a href="https://github.com/RePloZ"><img src="img/GitHub-Mark-Light-120px-plus.png" alt="Lien Github"></a>
-                </section>
 
-                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                <!-- Include all compiled plugins (below), or include individual files as needed -->
-                <!-- Latest compiled and minified JavaScript -->
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        </body>
+    <section class="container-fluid row">
+        <div class="col-xs-6 text-center">
+            <br><br><br><br><br>
+            <img src="img/linux-logo.jpg" alt="Front End" class="categorie">
+        </div>
+        <div class="col-xs-6">
+            <h1>Programmation <br> "Distribution Linux"</h1>
+            <br>
+            <p>Niveau : Intermediaire</p>
+            <br>
+            <p class="text-left">OS utilisé :</p>
+            <ul class="list-group">
+                <li class="list-group-item transparent">
+                    <p>
+                        <a href="">Ubuntu</a>
+                    </p>
+                </li>
+                <li class="list-group-item transparent">
+                    <p>
+                        <a href="">Mint</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h1>Projets Réalisés :</h1>
+        <section class="row">
+            <div class="col-xs-6">
+                <img src="" alt="">
+            </div>
+            <div class="cil-xl-6">
+                <h1></h1>
+                <p></p>
+            </div>
+        </section>
+        <br>
+        <p></p>
+        <a href="https://github.com/RePloZ"><img src="img/GitHub-Mark-Light-120px-plus.png" alt="Lien Github"></a>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
 </html>

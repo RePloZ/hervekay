@@ -1,24 +1,31 @@
-.pro{
+.pro {
     background: url(../img/O7MF5N0.jpg) no-repeat center center fixed;
     background-size: cover;
     padding: 300px 10% 0% 10%;
     min-height: 200px;
 }
 
-.h900{
+.h900 {
     height: 900px;
-    
 }
-h3, p {
+
+h3,
+p {
     font-size: 200%;
     color: #cccc;
 }
 
-.cent{
+.normal {
+    font-size: 50% !important;
+    color: black;
+}
+
+.cent {
     float: none;
     margin: 40px auto;
 }
-.inin{
-    background: url(..//img/Devanture.jpg) center center no-repeat ;
+
+.inin {
+    background: url(..//img/Devanture.jpg) center center no-repeat;
     background-size: cover;
 }

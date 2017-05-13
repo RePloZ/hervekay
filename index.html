@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,62 +25,52 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav nav nav-tabs">
-                        <li class="active">
-                            <a href="http://hervekay.herokuapp.com/">Accueil</a>
-                        </li>
-                        <li class="active dropdown">
-                            <a href="http://hervekay.herokuapp.com/properso.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projet Personnels <spann class="caret"></spann></a>
-                            <ul class="dropdown-menu dropdown-menu-center">
-                                <li><a href="http://hervekay.herokuapp.com/devellopeur-php.html">Developpeur PHP
-                                </a></li>
-                                <li><a href="http://hervekay.herokuapp.com/developpeur-front-end.html">
-                                    Developpeur Front-END
-                                </a></li>
-                                <li><a href="http://hervekay.herokuapp.com/developpeur-java.html">
-                                    Developpeur Java
-                                </a></li>
-                                <li><a href="http://hervekay.herokuapp.com/developpeur-javascript.html">
-                                    Developpeur JavaScript
-                                </a></li>
-                                <li><a href="http://hervekay.herokuapp.com/developpeur-linux.html">
-                                    Developpeur linux
-                                </a></li>
-                                <div class="dropdown-divider"></div>
-                                <div class="dropdown-header">Tous les projets</div>
-                                <li><a href="http://hervekay.herokuapp.com/properso.html">Projets Personels</a></li>
-                            </ul>
-                        </li>
-                        <li class="active">
-                            <a href="http://hervekay.herokuapp.com/CV.html">Curriculum Vitae</a>
-                        </li>
-                        <li class="active">
-                            <a href="http://hervekay.herokuapp.com/contact.html">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="navbar-header navbar-right">
-                        <a href="">
-                            <img src="img/GitHub-Mark-Light-120px-plus.png" height="52px" width="52px" alt="Github">
-                        </a>
-                    </div>
-                    <button type="button" name="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#myModal">Me contacter</button>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
+                <a class="navbar-brand" href="index.html">Portfolio Hervé Kay</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav nav nav-tabs">
+                    <li class="dropdown">
+                        <a href="properso.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projet Personnels <spann class="caret"></spann></a>
+                        <ul class="dropdown-menu dropdown-menu-center">
+                            <li><a href="devellopeur-php.html">Developpeur PHP</a></li>
+                            <li><a href="developpeur-front-end.html">Developpeur Front-END</a></li>
+                            <li><a href="developpeur-java.html">Developpeur Java</a></li>
+                            <li><a href="developpeur-javascript.html">Developpeur JavaScript</a></li>
+                            <li><a href="developpeur-linux.html">Developpeur linux</a></li>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-header">Tous les projets</div>
+                            <li><a href="properso.html">Projets Personels</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="CV.html">Curriculum Vitae</a>
+                    </li>
+                    <li name='modal'>
+                        <a name='modal'>Contact</a>
+                    </li>
+                </ul>
+                <div class="navbar-header navbar-right">
+                    <a href="https://github.com/reploz">
+                        <img src="img/GitHub-Mark-Light-120px-plus.png" height="52px" width="52px" alt="Github">
+                    </a>
+                </div>
+            </div>
         </div>
     </nav>
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    <h4 class="modal-title" id="myModalLabel">Contacter</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Une question ? Une remarque ? Ou tout simplement un commentaire.
-                        <br> Inscrivez toutes vos demandes, je serais à votre disposition.</p>
+                    <p>
+                        <spann class="normal small">Une question ? Une remarque ? Ou tout simplement un commentaire.
+                            <br> Inscrivez toutes vos demandes, je serais à votre disposition.</spann>
+                    </p>
                     <form class="" action="mail.php" method="post">
                         <div class="input-group">
                             <span class="input-group-addon" id="basic-addon1">@</span>
@@ -118,8 +109,8 @@
             <img src="img/Logo%20Ingesup.jpg" alt="Image Ingésup 1" class="img-thumbnail">
             <h3>Ingesup</h3>
             <p>
-                Ecole située dans Paris (20ème arrondissement), cette école permet de se former aux métiers de l'informatique et des systèmes de communications.
-                Cette école propose en plus des "start-up days", projets en équipe encadré et en partenariat avec plusieurs autres écoles du groupe ynov. A travers cette formation, j'ai pour but d'obtenir un Mastère expert informatique et systèmes d’information.
+                Ecole située dans Paris (20ème arrondissement), cette école permet de se former aux métiers de l'informatique et des systèmes de communications. Cette école propose en plus des "start-up days", projets en équipe encadré et en partenariat avec plusieurs
+                autres écoles du groupe ynov. A travers cette formation, j'ai pour but d'obtenir un Mastère expert informatique et systèmes d’information.
             </p>
         </div>
     </section>
@@ -130,5 +121,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
+
 </html>
